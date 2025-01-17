@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(god-hand.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; /* Ensures the image does not repeat */
+}
+.manifest-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    padding: 3em;
+    height: auto; /* Ensure it adjusts based on content */
+    width: auto; /* Opt  */
+    border-radius: 3px;
+}
+.H1{
+    margin-top: 0;
+    font-weight: 500;
+}
+.text-area{
+    height: 30vh;
+    width: 50vh;
+    font-size: 20px;
+    font-weight: 500px;
+    border: 1px solid black;
+    padding-left: 0;
+    background-color: transparent;
+    border-radius: 5px;
+}
+.file-button{
+    margin: 20px;
+
+}
+#message-box{
+    margin-bottom: 10px; /* Space between the message and the button */
+    font-size: 16px; /* Adjust font size as needed */
+    font-weight: bold; /* Make the message bold */
+    color: rgb(2, 78, 255); /* Change text color to green for visibility */
+}
+.button-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+button{
+    height: 50px;
+    width: 220px;
+    border: none;
+    border-radius: 13px;
+    background-color: rgb(0, 255, 238);
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(17, 138, 98);
+    transform: transform
+}
+button:active{
+    transform: translateY(3px);
+}
